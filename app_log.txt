@@ -4,3 +4,5 @@ Make it more difficult
 Make the speed change more than once
 Change the # of objects per level
 Decrease visual clutter
+
+6/8 created another level with another speedup + made game longer
