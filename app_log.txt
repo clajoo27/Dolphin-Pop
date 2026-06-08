@@ -1,0 +1,6 @@
+Make game longer
+Make it easier at the start
+Make it more difficult
+Make the speed change more than once
+Change the # of objects per level
+Decrease visual clutter
