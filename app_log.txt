@@ -6,3 +6,4 @@ Change the # of objects per level
 Decrease visual clutter
 
 6/8 created another level with another speedup + made game longer
+6/9 increased difficulty by incr. pufferfish speed, decr. pufferfish size, and incr. the points lost when hitting pufferfish
