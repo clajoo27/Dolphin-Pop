@@ -197,6 +197,9 @@ function winGame() {
   ellipse(240,360,100,100);
   tint(0,0,0,150);
   image(restart,190,310,100,100);
+  let showed10 = false;
+  let showed20 = false;
+  let showed35 = false;
 }
 
 // design for the game lose page
@@ -216,6 +219,9 @@ function loseGame() {
   ellipse(240,360,100,100);
   tint(0,0,0,150);
   image(restart,190,310,100,100);
+  let showed10 = false;
+  let showed20 = false;
+  let showed35 = false;
 }
 
 // create the bubbles
