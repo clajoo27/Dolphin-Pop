@@ -123,7 +123,7 @@ function playGame() {
   }
   
   // make there be text that functions as a visual indicator for the speed increase after the score initially passes 10
-    if(score>= 9 && score<=12 && speedUp == true && showed10==false){
+    if(score>= 10 && score<=12 && speedUp == true && showed10==false){
       textAlign(CENTER)
       textSize(80)
       text("Faster!", width/2, height/2)
@@ -142,7 +142,7 @@ function playGame() {
     speedUp = false;
   }
 
-    if(score>= 18 && score<=22 && speedUp == false && showed20==false){
+    if(score>= 20 && score<=22 && speedUp == false && showed20==false){
       textAlign(CENTER)
       textSize(80)
       text("Faster!", width/2, height/2)
@@ -161,7 +161,7 @@ function playGame() {
     speedUp = false;
   }
   
-      if(score>= 33 && score<=37 && speedUp == false && showed35==false){
+      if(score>= 35 && score<=37 && speedUp == false && showed35==false){
       textAlign(CENTER)
       textSize(80)
       text("Faster!", width/2, height/2)
