@@ -76,6 +76,10 @@ function mousePressed() {
   else if (p < 50 && state == "start") {
     state = "play";
   }
+  showed10 = false;
+showed20 = false;
+showed35 = false;
+speedUp = false;
 }
 
 // design for the initial game start page
@@ -197,9 +201,6 @@ function winGame() {
   ellipse(240,360,100,100);
   tint(0,0,0,150);
   image(restart,190,310,100,100);
-  let showed10 = false;
-  let showed20 = false;
-  let showed35 = false;
 }
 
 // design for the game lose page
@@ -219,10 +220,7 @@ function loseGame() {
   ellipse(240,360,100,100);
   tint(0,0,0,150);
   image(restart,190,310,100,100);
-  let showed10 = false;
-  let showed20 = false;
-  let showed35 = false;
-}
+ }
 
 // create the bubbles
 function makeBubbles(count) {
